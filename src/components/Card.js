@@ -289,12 +289,12 @@ export const Card = () => {
                         required
                       >
                         <option value="" disabled>Select Category</option>
-                        <option value="alumini">Alumini Meets</option>
+                        <option value="alumini">Freshers Party</option>
                         <option value="concert">Concert</option>
-                        <option value="tech">Tech Seminar</option>
-                        <option value="get_together">Get Together</option>
+                        <option value="tech">Hackathon</option>
+                        <option value="get_together">Birthday Celebration</option>
                         <option value="wedding">Wedding</option>
-                        <option value="other">Other</option>
+                        <option value="other">Festival Celebration</option>
                       </select>
                     </div>
                     <div className="button-group">
