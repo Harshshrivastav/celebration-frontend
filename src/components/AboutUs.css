@@ -1,0 +1,130 @@
+.about-us {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.hero-section {
+  text-align: center;
+  background-image: url('../../public/tech.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 80px 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero-section h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  animation: fadeInDown 1s ease-in-out;
+}
+
+.hero-section p {
+  font-size: 22px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.content-section {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.section h2 {
+  font-size: 36px;
+  color: #1F316F;
+  margin-bottom: 15px;
+}
+
+.section p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 10px;
+}
+
+.section .image-content {
+  flex: 1;
+  text-align: center;
+}
+
+.section img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section .text-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.team-gallery {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.team-gallery img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.team-gallery img:hover {
+  transform: scale(1.05);
+}
+
+.contact-details {
+  font-size: 18px;
+}
+
+.contact-details a {
+  color: #1F316F;
+  text-decoration: none;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

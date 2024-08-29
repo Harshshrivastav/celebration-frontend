@@ -1,0 +1,251 @@
+/* Overall container */
+.auth-out{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.auth-container {
+    display: flex;
+    min-height: 80vh;
+    background-color: #f3f4f6;
+    box-shadow: 0 2px 10px rgba(0, 10, 10, 0.1);
+    margin-top: 100px;
+  }
+  
+  /* Left Section (Form) */
+  .auth-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 3rem;
+    background-color: #ffffff;
+    border-radius: 16px 0 0 16px;
+  }
+  
+  .auth-header {
+    margin-bottom: 2rem;
+  }
+  
+  .auth-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 0.5rem;
+  }
+  
+  .auth-subtitle {
+    font-size: 1rem;
+    color: #6b7280;
+    margin-bottom: 2rem;
+  }
+  
+  /* Social login buttons */
+  .auth-social-login {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+  }
+  
+  .auth-social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48%;
+    padding: 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.375rem;
+    background-color: #f9fafb;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #374151;
+    transition: background-color 0.3s;
+  }
+  
+  .auth-social-button:hover {
+    background-color: #e5e7eb;
+  }
+  
+  .auth-google-button {
+    color: #ea4335;
+  }
+  
+  .auth-facebook-button {
+    color: #1877f2;
+  }
+  
+  /* Divider text */
+  .auth-or-text {
+    text-align: center;
+    margin: 1.5rem 0;
+    color: #9ca3af;
+    font-size: 0.875rem;
+  }
+  
+  /* Form inputs */
+  .auth-form {
+    width: 100%;
+  }
+  
+  .auth-form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .auth-form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #4b5563;
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+  
+  .auth-form-input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+    color: #1f2937;
+    background-color: #f9fafb;
+    transition: border-color 0.3s;
+  }
+  
+  .auth-form-input:focus {
+    border-color: #2563eb;
+    outline: none;
+  }
+  
+  .auth-forgot-password {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: #2563eb;
+    text-align: right;
+  }
+  
+  .auth-forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  /* Remember me checkbox */
+  .auth-checkbox {
+    margin-right: 0.5rem;
+    accent-color: #2563eb;
+  }
+  
+  .auth-checkbox-label {
+    font-size: 0.875rem;
+    color: #4b5563;
+  }
+  
+  /* Submit button */
+  .auth-submit-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .auth-submit-button:hover {
+    background-color: #1d4ed8;
+  }
+  
+  /* Signup link */
+  .auth-signup-text {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 0.875rem;
+    color: #6b7280;
+  }
+  
+  .auth-link {
+    color: #2563eb;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .auth-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Alert message */
+  .auth-alert-message {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #d1fae5;
+    border: 1px solid #10b981;
+    border-radius: 0.375rem;
+    color: #065f46;
+    font-size: 0.875rem;
+    text-align: center;
+  }
+  
+  /* Right Section (Image and Text) */
+  .auth-right {
+    flex: 1;
+    background-color: #1d4ed8;
+    background: url('https://img.freepik.com/free-vector/abstract-classic-blue-screensaver_23-2148421853.jpg?size=626&ext=jpg') no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 0 16px 16px 0;
+  }
+  
+  .auth-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  
+  .auth-connect-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .auth-dashboard-text {
+    font-size: 1rem;
+    text-align: center;
+    color: #dbeafe;
+  }
+  
+
+  .back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .back-button:hover {
+    filter: blur(0);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    color: #1F316F;
+  }
+  
+  .back-button svg {
+    font-size: 1.5rem;
+    color: #1F316F;
+  }
+  

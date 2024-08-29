@@ -1,0 +1,25 @@
+.stats {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+    border-bottom: 1px solid #e9ecef;
+  }
+  
+  .stats .container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .stats .stat-item h2 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .stats .stat-item p {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  

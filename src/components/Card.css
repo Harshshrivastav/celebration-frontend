@@ -1,0 +1,233 @@
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh 10vh ;
+  }
+  
+.event-wrapper {
+    width: 1000px;
+    padding: 50px;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+.my-events-section{
+  padding: 32px;
+}
+.all-events-section{
+  padding: 32px;
+}
+.header-section {
+    background-color: #fff4f2;
+    padding: 20px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: relative;
+    text-align: center;
+}
+
+.header-section h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+.date-text {
+    font-size: 14px;
+    color: #888;
+}
+.event-2-info-box{
+  display: flex;
+  justify-content:start;
+}
+
+.date-2-container{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    height: 80%;
+    text-align: center;
+    max-width: 20vh;
+    width: 100%;
+    margin: 50px;
+}
+
+.event-info-box {
+    background-color: #eceaff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    margin-top: 15px;
+}
+
+.date-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    height: 10%;
+    text-align: center;
+    max-width: 20vh;
+    width: 100%;
+    margin-right: 50px;
+
+}
+
+.day-display {
+    font-size: 24px;
+    color: #fb6b94;
+}
+
+.month-display {
+   background-color: #fff;
+    border-radius: 10px;
+    padding: 0 10px;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    color: #888;
+}
+
+.image-box img {
+    width: 100%;
+    max-width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-right: 15px;
+    max-height: 40vh;
+    padding: 10px;
+    
+}
+
+.event-details {
+    background-color: rgba(240, 238, 237, 0.733);
+    border-radius: 5px;
+    padding: 16px;
+    margin-top: 10px;
+    flex: 1;
+}
+
+.event-details h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+.event-details p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+.button{
+  display: flex;
+  justify-content: space-around;
+}
+.date-2-container button {
+  margin: 0;
+  padding: 5px 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color:#eeeeee;
+
+}
+
+.verified-icon {
+    color: #b6c8cc;
+    font-size: 14px;
+}
+
+.organizer, .distance-info, .event-location {
+    font-size: 12px;
+    color: #888;
+}
+
+.navigation-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #fff;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.navigation-footer button {
+    background-color: #10177e;
+    color: white;
+    font-weight: 900;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-size: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+
+
+/* Form  */
+/* Form Group Styling */
+.form-group {
+    margin-bottom: 16px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+  
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+    width: 360px;
+  }
+  
+  /* Button Group Styling */
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .save-button,
+  .cancel-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .save-button {
+    background-color: #9471d4;
+    margin:0 10px;
+    color: white;
+  }
+  
+  .cancel-button {
+    background-color: #6f7072;
+    color: white;
+  }
+  
+  .save-button:hover {
+    background-color: #218838;
+  }
+  
+  .cancel-button:hover {
+    background-color: #5a6268;
+  }
+  
